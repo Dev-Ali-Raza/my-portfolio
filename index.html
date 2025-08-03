@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ali Raza | Software Developer</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css"/>
+
+  <style>
+    body {
+      background: radial-gradient(ellipse at center, #1f0331 0%, #0b0c2a 100%);
+      color: white;
+      font-family: 'Segoe UI', sans-serif;
+    }
+    .navbar {
+      background-color: transparent;
+    }
+    .hero {
+      padding-top: 8rem;
+      padding-bottom: 6rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    .hero h1 {
+      font-size: 4rem;
+      font-weight: 800;
+    }
+    .hero h1 span {
+      color: #00c9ff;
+    }
+    .hero p {
+      font-size: 1.2rem;
+    }
+    .btn-custom {
+      background: #00c9ff;
+      border: none;
+      padding: 0.6rem 1.5rem;
+      color: #000;
+      font-weight: bold;
+      border-radius: 25px;
+    }
+    .feature-box {
+      background-color: #1c1f3a;
+      padding: 2rem;
+      border-radius: 15px;
+      text-align: center;
+      height: 100%;
+    }
+    .about-section {
+      padding: 6rem 0;
+    }
+    .stats-box {
+      background-color: #191b32;
+      padding: 2rem;
+      border-radius: 15px;
+      text-align: center;
+    }
+    .progress {
+      height: 8px;
+      border-radius: 50px;
+      background: #3a3f64;
+    }
+    .progress-bar {
+      background-color: #00c9ff;
+    }
+    footer {
+      background: #0b0c2a;
+      padding: 2rem 0;
+      color: #ccc;
+      text-align: center;
+    }
+    footer a {
+      color: #00c9ff;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+    footer a:hover {
+      color: #fff;
+    }
+  </style>
+</head>
+<body class="container">
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">Ali Raza</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero container" data-aos="fade-up">
+  <div>
+    <h1>Ali <span>Raza</span></h1>
+    <p>Full-Stack Developer | .NET Core | Angular | SQL</p>
+    <a href="#about" class="btn btn-custom mt-3">Get Connected</a>
+  </div>
+  <div data-aos="zoom-in">
+    <img src="images/profile.png" alt="Ali Raza" style="border-radius: 15%; width: 240px; border: 6px solid #00c9ff;" />
+  </div>
+</section>
+
+<!-- Features Section -->
+<section class="container my-5">
+  <div class="row text-center">
+    <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+      <div class="feature-box">
+        <i class="fas fa-code fa-2x mb-3"></i>
+        <h5>Deeper Skillset</h5>
+        <p>Mastery in backend and frontend frameworks for modern applications.</p>
+      </div>
+    </div>
+    <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+      <div class="feature-box">
+        <i class="fas fa-lightbulb fa-2x mb-3"></i>
+        <h5>Creative Work</h5>
+        <p>Designed scalable and user-focused systems from scratch.</p>
+      </div>
+    </div>
+    <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="300">
+      <div class="feature-box">
+        <i class="fas fa-gem fa-2x mb-3"></i>
+        <h5>Strong Dedication</h5>
+        <p>Committed to continuous learning and engineering excellence.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- About Section -->
+<section class="about-section container" id="about">
+  <div class="text-center mb-5" data-aos="fade-up">
+    <h3 class="text-info">About Me</h3>
+    <h2 class="fw-bold">A Passionate Developer Who Loves to Code</h2>
+  </div>
+  <div class="row align-items-center">
+    <div class="col-md-6" data-aos="fade-right">
+      <img src="images/profile.png" alt="Ali Raza" class="img-fluid rounded" />
+    </div>
+    <div class="col-md-6" data-aos="fade-left">
+      <h5>Name: Ali Raza</h5>
+      <h6>Email: aliraza200002@gmail.com</h6>
+      <h6>Phone: +92 300 1234567</h6>
+      <h6>Address: Lahore, Pakistan</h6>
+      <h6>DOB: Jan 1, 2000</h6>
+      <h6>Freelance: Available</h6>
+      <a href="resume.pdf" class="btn btn-custom mt-3">Download CV</a>
+    </div>
+  </div>
+</section>
+
+<!-- Stats Section -->
+<section class="container text-center my-5">
+  <div class="row g-4">
+    <div class="col-md-3" data-aos="zoom-in">
+      <div class="stats-box">
+        <h4>20+</h4>
+        <p>Digital Products</p>
+      </div>
+    </div>
+    <div class="col-md-3" data-aos="zoom-in" data-aos-delay="150">
+      <div class="stats-box">
+        <h4>95%</h4>
+        <p>Client Satisfaction</p>
+      </div>
+    </div>
+    <div class="col-md-3" data-aos="zoom-in" data-aos-delay="300">
+      <div class="stats-box">
+        <h4>5+</h4>
+        <p>Years Experience</p>
+      </div>
+    </div>
+    <div class="col-md-3" data-aos="zoom-in" data-aos-delay="450">
+      <div class="stats-box">
+        <h4>200K+</h4>
+        <p>Lines of Code</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Skills Section -->
+<section class="container" id="skills">
+  <div class="text-center mb-5" data-aos="fade-up">
+    <h3 class="text-info">Skills</h3>
+    <h4 class="fw-bold">I Work Hard to Improve My Skills Regularly</h4>
+  </div>
+  <div class="row">
+    <div class="col-md-6" data-aos="fade-right">
+      <p>HTML</p>
+      <div class="progress mb-3"><div class="progress-bar" style="width: 95%"></div></div>
+      <p>CSS</p>
+      <div class="progress mb-3"><div class="progress-bar" style="width: 90%"></div></div>
+      <p>JavaScript</p>
+      <div class="progress mb-3"><div class="progress-bar" style="width: 85%"></div></div>
+    </div>
+    <div class="col-md-6" data-aos="fade-left">
+      <p>.NET Core</p>
+      <div class="progress mb-3"><div class="progress-bar" style="width: 92%"></div></div>
+      <p>Angular</p>
+      <div class="progress mb-3"><div class="progress-bar" style="width: 90%"></div></div>
+      <p>SQL</p>
+      <div class="progress mb-3"><div class="progress-bar" style="width: 93%"></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="mt-5">
+  <div>
+    <a href="#"><i class="fab fa-linkedin fa-lg"></i></a>
+    <a href="#"><i class="fab fa-github fa-lg"></i></a>
+    <a href="#"><i class="fab fa-twitter fa-lg"></i></a>
+  </div>
+  <p class="mt-3">© 2025 Ali Raza. All rights reserved.</p>
+</footer>
+
+<!-- Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000,
+    once: true
+  });
+</script>
+</body>
+</html>

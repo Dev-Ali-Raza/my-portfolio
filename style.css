@@ -1,0 +1,82 @@
+body {
+  background: linear-gradient(180deg, #0c0c2d, #1d0431);
+  color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.hero {
+  min-height: 100vh;
+  background: radial-gradient(circle, #1a1a40, #0f0f3a);
+  padding-top: 5rem;
+  flex-direction: column;
+}
+
+.hero .first-name {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.hero .last-name {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #00bfff;
+}
+
+.hero .tagline {
+  color: #bbb;
+  margin: 1rem 0;
+}
+
+.profile-photo img {
+  width: 160px;
+  border-radius: 50%;
+  border: 4px solid #00bfff;
+}
+
+.service-card {
+  background: #1c1c3c;
+  padding: 2rem;
+  border-radius: 12px;
+  transition: 0.3s;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  background: #27275e;
+}
+
+.about-me {
+  background: #111128;
+}
+
+.about-me .bio li {
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.stats {
+  background: #1c1c3c;
+}
+
+.stats h3 {
+  font-size: 2rem;
+  color: #00bfff;
+}
+
+.skills {
+  background: #181840;
+}
+
+.progress {
+  background: #2c2c5c;
+  height: 25px;
+  margin-bottom: 1.5rem;
+  border-radius: 30px;
+}
+
+.progress-bar {
+  font-weight: bold;
+  font-size: 0.9rem;
+  line-height: 25px;
+}
