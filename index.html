@@ -7,83 +7,19 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"/>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
   <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css"/>
+  <link rel="stylesheet" href="./style.css"/>
 
-  <style>
-    body {
-      background: radial-gradient(ellipse at center, #1f0331 0%, #0b0c2a 100%);
-      color: white;
-      font-family: 'Segoe UI', sans-serif;
-    }
-    .navbar {
-      background-color: transparent;
-    }
-    .hero {
-      padding-top: 8rem;
-      padding-bottom: 6rem;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      flex-wrap: wrap;
-    }
-    .hero h1 {
-      font-size: 4rem;
-      font-weight: 800;
-    }
-    .hero h1 span {
-      color: #00c9ff;
-    }
-    .hero p {
-      font-size: 1.2rem;
-    }
-    .btn-custom {
-      background: #00c9ff;
-      border: none;
-      padding: 0.6rem 1.5rem;
-      color: #000;
-      font-weight: bold;
-      border-radius: 25px;
-    }
-    .feature-box {
-      background-color: #1c1f3a;
-      padding: 2rem;
-      border-radius: 15px;
-      text-align: center;
-      height: 100%;
-    }
-    .about-section {
-      padding: 6rem 0;
-    }
-    .stats-box {
-      background-color: #191b32;
-      padding: 2rem;
-      border-radius: 15px;
-      text-align: center;
-    }
-    .progress {
-      height: 8px;
-      border-radius: 50px;
-      background: #3a3f64;
-    }
-    .progress-bar {
-      background-color: #00c9ff;
-    }
-    footer {
-      background: #0b0c2a;
-      padding: 2rem 0;
-      color: #ccc;
-      text-align: center;
-    }
-    footer a {
-      color: #00c9ff;
-      margin: 0 10px;
-      text-decoration: none;
-    }
-    footer a:hover {
-      color: #fff;
-    }
-  </style>
 </head>
 <body class="container">
+  <!-- Animated Background Particles -->
+  <div class="particles">
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+  </div>
 
 <!-- Navbar -->
 <nav class="navbar navbar-expand-lg navbar-dark">
@@ -97,13 +33,13 @@
         <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
         <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
         <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="#project">Projects</a></li>
         <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
       </ul>
     </div>
   </div>
 </nav>
 
-<!-- Hero Section -->
 <section class="hero container" data-aos="fade-up">
   <div>
     <h1>Ali <span>Raza</span></h1>
@@ -115,7 +51,6 @@
   </div>
 </section>
 
-<!-- Features Section -->
 <section class="container my-5">
   <div class="row text-center">
     <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="100">
@@ -142,29 +77,72 @@
   </div>
 </section>
 
-<!-- About Section -->
 <section class="about-section container" id="about">
   <div class="text-center mb-5" data-aos="fade-up">
     <h3 class="text-info">About Me</h3>
     <h2 class="fw-bold">A Passionate Developer Who Loves to Code</h2>
   </div>
+  
   <div class="row align-items-center">
-    <div class="col-md-6" data-aos="fade-right">
-      <img src="images/profile.png" alt="Ali Raza" class="img-fluid rounded" />
+    <!-- Left Column - Overlapping Images -->
+    <div class="col-lg-6" data-aos="fade-right">
+      <div class="about-images-wrapper">
+        <div class="about-image-main">
+          <img src="images/work-profile.png" alt="Ali Raza" class="img-fluid rounded" />
+        </div>
+        <div class="about-image-secondary image-1">
+          <img src="images/working.jpg" alt="Working" class="img-fluid rounded" />
+        </div>
+        <div class="about-image-secondary image-2">
+          <img src="images/work-sample.jpeg" alt="Work Sample" class="img-fluid rounded" />
+        </div>
+      </div>
     </div>
-    <div class="col-md-6" data-aos="fade-left">
-      <h5>Name: Ali Raza</h5>
-      <h6>Email: aliraza200002@gmail.com</h6>
-      <h6>Phone: +92 312 7358583</h6>
-      <h6>Address: Latifabad No 6, Hyderabad, Pakistan</h6>
-      <h6>DOB: Feb 2, 2000</h6>
-      <h6>Freelance: Available</h6>
-      <!-- <a href="resume.pdf" class="btn btn-custom mt-3">Download CV</a> -->
+    
+    <!-- Right Column - Bio Text -->
+    <div class="col-lg-6" data-aos="fade-left">
+      <div class="about-content ps-lg-5">
+        <h3 class="mb-4">My Bio</h3>
+        <p class="lead bio-text">
+          I'm a passionate Full Stack Developer with expertise in building modern web applications. 
+          My journey in software development started with a simple "Hello World" program, and since then, 
+          I've been on an exciting path of continuous learning and growth. I specialize in creating 
+          responsive, user-friendly applications using the latest web technologies. My goal is to build 
+          solutions that make a difference in people's lives.
+        </p>
+        
+        <div class="personal-info mt-5">
+          <div class="info-item mb-3">
+            <span class="info-label">Name:</span>
+            <span class="info-value">Ali Raza</span>
+          </div>
+          <div class="info-item mb-3">
+            <span class="info-label">Email:</span>
+            <span class="info-value">aliraza200002@gmail.com</span>
+          </div>
+          <div class="info-item mb-3">
+            <span class="info-label">Phone:</span>
+            <span class="info-value">+92 312 7358583</span>
+          </div>
+          <div class="info-item mb-3">
+            <span class="info-label">From:</span>
+            <span class="info-value">Hyderabad, Pakistan</span>
+          </div>
+          <div class="info-item">
+            <span class="info-label">Freelance:</span>
+            <span class="info-value text-info">Available</span>
+          </div>
+        </div>
+        
+        <div class="mt-5">
+          <a href="#" class="btn btn-primary me-3">Download CV</a>
+          <a href="#contact" class="btn btn-outline-light">Hire Me</a>
+        </div>
+      </div>
     </div>
   </div>
 </section>
 
-<!-- Stats Section -->
 <section class="container text-center my-5">
   <div class="row g-4">
     <div class="col-md-3" data-aos="zoom-in">
@@ -194,7 +172,6 @@
   </div>
 </section>
 
-<!-- Skills Section -->
 <section class="container" id="skills">
   <div class="text-center mb-5" data-aos="fade-up">
     <h3 class="text-info">Skills</h3>
@@ -220,24 +197,17 @@
   </div>
 </section>
 
-<!-- Footer -->
 <footer class="mt-5">
   <div>
     <a href="#"><i class="fab fa-linkedin fa-lg"></i></a>
     <a href="#"><i class="fab fa-github fa-lg"></i></a>
     <a href="#"><i class="fab fa-twitter fa-lg"></i></a>
   </div>
-  <p class="mt-3">© 2025 Ali Raza. All rights reserved.</p>
+  <p class="mt-3"> 2025 Ali Raza. All rights reserved.</p>
 </footer>
 
-<!-- Scripts -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>
-  AOS.init({
-    duration: 1000,
-    once: true
-  });
-</script>
+<script src="script.js"> </script>
 </body>
 </html>
