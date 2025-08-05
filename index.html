@@ -43,7 +43,7 @@
 <section class="hero container" data-aos="fade-up">
   <div>
     <h1>Ali <span>Raza</span></h1>
-    <p>Full-Stack Developer | .NET Core | Angular | SQL</p>
+    <p>Full-Stack Developer | .NET Core | Angular | SQL | API Integration Specialist</p>
     <a href="#about" class="btn btn-custom mt-3">Get Connected</a>
   </div>
   <div data-aos="zoom-in">
@@ -84,31 +84,29 @@
   </div>
   
   <div class="row align-items-center">
-    <!-- Left Column - Overlapping Images -->
     <div class="col-lg-6" data-aos="fade-right">
-      <div class="about-images-wrapper">
-        <div class="about-image-main">
-          <img src="images/work-profile.png" alt="Ali Raza" class="img-fluid rounded" />
+      <div class="image-grid-wrapper">
+        <div class="image-grid image-1">
+          <img src="images/working.jpg" alt="Working"  style="border-radius: 15%; border: 2px solid #00c9ff;"/>
         </div>
-        <div class="about-image-secondary image-1">
-          <img src="images/working.jpg" alt="Working" class="img-fluid rounded" />
+        <div class="image-grid image-2">
+          <img src="images/work-profile.jpg" alt="Ali Raza"  style="border-radius: 15%; border: 2px solid #00c9ff;"/>
         </div>
-        <div class="about-image-secondary image-2">
-          <img src="images/work-sample.jpeg" alt="Work Sample" class="img-fluid rounded" />
+        <div class="image-grid image-3">
+          <img src="images/work-sample.jpg" alt="Work Sample" style="border-radius: 15%; border: 2px solid #00c9ff;"/>
         </div>
       </div>
     </div>
     
-    <!-- Right Column - Bio Text -->
     <div class="col-lg-6" data-aos="fade-left">
       <div class="about-content ps-lg-5">
         <h3 class="mb-4">My Bio</h3>
         <p class="lead bio-text">
-          I'm a passionate Full Stack Developer with expertise in building modern web applications. 
-          My journey in software development started with a simple "Hello World" program, and since then, 
-          I've been on an exciting path of continuous learning and growth. I specialize in creating 
-          responsive, user-friendly applications using the latest web technologies. My goal is to build 
-          solutions that make a difference in people's lives.
+          I'm a Full Stack Developer specializing in building modern, scalable web applications.
+        I craft clean, responsive frontends and robust backend logic with efficient API integrations.
+        With a strong grasp of the latest technologies, I turn complex ideas into real-world solutions.
+        I’m passionate about performance, usability, and clean architecture.
+        Always learning, always building to create meaningful digital experiences.
         </p>
         
         <div class="personal-info mt-5">
@@ -124,20 +122,20 @@
             <span class="info-label">Phone:</span>
             <span class="info-value">+92 312 7358583</span>
           </div>
-          <div class="info-item mb-3">
+          <div class="info-item">
             <span class="info-label">From:</span>
             <span class="info-value">Hyderabad, Pakistan</span>
           </div>
-          <div class="info-item">
+          <!-- <div class="info-item">
             <span class="info-label">Freelance:</span>
             <span class="info-value text-info">Available</span>
-          </div>
+          </div> -->
         </div>
         
-        <div class="mt-5">
+        <!-- <div class="mt-5">
           <a href="#" class="btn btn-primary me-3">Download CV</a>
           <a href="#contact" class="btn btn-outline-light">Hire Me</a>
-        </div>
+        </div> -->
       </div>
     </div>
   </div>
@@ -165,37 +163,115 @@
     </div>
     <div class="col-md-3" data-aos="zoom-in" data-aos-delay="450">
       <div class="stats-box">
-        <h4>200K+</h4>
+        <h4>1M+</h4>
         <p>Lines of Code</p>
       </div>
     </div>
   </div>
 </section>
 
-<section class="container" id="skills">
-  <div class="text-center mb-5" data-aos="fade-up">
-    <h3 class="text-info">Skills</h3>
-    <h4 class="fw-bold">I Work Hard to Improve My Skills Regularly</h4>
-  </div>
-  <div class="row">
-    <div class="col-md-6" data-aos="fade-right">
-      <p>HTML</p>
-      <div class="progress mb-3"><div class="progress-bar" style="width: 95%"></div></div>
-      <p>CSS</p>
-      <div class="progress mb-3"><div class="progress-bar" style="width: 90%"></div></div>
-      <p>JavaScript</p>
-      <div class="progress mb-3"><div class="progress-bar" style="width: 85%"></div></div>
+<!-- MODAL POPUP FOR PROJECT DETAILS -->
+<div class="modal fade" id="projectModal" tabindex="-1" aria-labelledby="projectModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl modal-dialog-centered">
+    <div class="modal-content bg-dark text-white">
+      <div class="modal-header border-0">
+        <h5 class="modal-title" id="projectModalLabel">Project Title</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <!-- Left: Images -->
+          <div class="col-md-6">
+            <div id="projectModalGallery" class="d-flex gap-2 flex-wrap mb-3"></div>
+          </div>
+          <!-- Right: Description -->
+          <div class="col-md-6">
+            <p id="projectModalDesc"></p>
+            <ul id="projectModalFeatures" class="ps-3 mt-3"></ul>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="col-md-6" data-aos="fade-left">
-      <p>.NET Core</p>
-      <div class="progress mb-3"><div class="progress-bar" style="width: 92%"></div></div>
-      <p>Angular</p>
-      <div class="progress mb-3"><div class="progress-bar" style="width: 90%"></div></div>
-      <p>SQL</p>
-      <div class="progress mb-3"><div class="progress-bar" style="width: 93%"></div></div>
+  </div>
+</div>
+
+<!-- MAIN PROJECTS SECTION -->
+<section id="project" class="projects-section py-5">
+  <div class="container">
+    <div class="section-header text-center mb-5" data-aos="fade-up">
+      <h3 class="text-info">My Projects</h3>
+      <h4 class="fw-bold">Here are some of my recent works</h4>
+    </div>
+
+    <div class="row g-4 projects-container" id="projectsContainer">
+      <!-- Project Cards will be dynamically added here -->
+    </div>
+
+    <div class="text-center mt-5" data-aos="fade-up">
+      <button id="showMoreBtn" class="btn btn-outline-primary">Show More Projects</button>
     </div>
   </div>
 </section>
+
+
+<section class="container" id="skills">
+  <div class="text-center mb-5" data-aos="fade-up">
+    <h3 class="text-info">Technical Skills</h3>
+    <h4 class="fw-bold">Continuously Expanding My Technical Expertise</h4>
+  </div>
+  
+  <div class="row">
+    <!-- Development Skills -->
+    <div class="col-md-6" data-aos="fade-right">
+      <h5 class="mb-4">Development</h5>
+      <p>.NET Core / .NET 6+</p>
+      <div class="progress mb-3"><div class="progress-bar" style="width: 92%; background: #512bd4;"></div></div>
+      
+      <p>C#</p>
+      <div class="progress mb-3"><div class="progress-bar" style="width: 95%; background: #9b4f96;"></div></div>
+      
+      <p>Angular</p>
+      <div class="progress mb-3"><div class="progress-bar" style="width: 90%; background: #dd0031;"></div></div>
+      
+      <p>JavaScript/TypeScript</p>
+      <div class="progress mb-3"><div class="progress-bar" style="width: 88%; background: #f7df1e; color: #000;"></div></div>
+      
+      <p>SQL Server</p>
+      <div class="progress mb-3"><div class="progress-bar" style="width: 93%; background: #cc2927;"></div></div>
+    </div>
+    
+    <!-- Cloud & DevOps -->
+    <div class="col-md-6" data-aos="fade-left">
+      <h5 class="mb-4">Cloud</h5>
+      <p>Microsoft Azure</p>
+      <div class="progress mb-3"><div class="progress-bar" style="width: 85%; background: #0078d4;"></div></div>
+      
+      <p>Azure DevOps</p>
+      <div class="progress mb-3"><div class="progress-bar" style="width: 88%; background: #0070ad;"></div></div>
+      
+      <p>CI/CD Pipelines</p>
+      <div class="progress mb-3"><div class="progress-bar" style="width: 85%; background: #47a248;"></div></div>
+    </div>
+  </div>
+  
+  <!-- Additional Skills -->
+  <div class="row mt-4">
+    <div class="col-12">
+      <h5 class="text-center mb-4">Additional Technologies</h5>
+      <div class="d-flex flex-wrap justify-content-center gap-3">
+        <span class="badge bg-secondary p-2">Azure Functions</span>
+        <span class="badge bg-secondary p-2">Azure SQL</span>
+        <span class="badge bg-secondary p-2">Azure App Service</span>
+        <span class="badge bg-secondary p-2">Entity Framework Core</span>
+        <span class="badge bg-secondary p-2">RESTful APIs</span>
+        <span class="badge bg-secondary p-2">Microservices</span>
+        <span class="badge bg-secondary p-2">Git</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+
 
 <footer class="mt-5">
   <div>
