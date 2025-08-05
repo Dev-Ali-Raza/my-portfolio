@@ -25,9 +25,9 @@ const tagColors = {
       key: "gohighlevel",
       title: "GoHighLevel API Integration",
       img: [
-        "images/projects/gohighlevel-1.jpg",
-        "images/projects/gohighlevel-2.gif",
-        "images/projects/gohighlevel-3.png"
+        "images/Projects/gohighlevel-1.jpg",
+        "images/Projects/gohighlevel-2.gif",
+        "images/Projects/gohighlevel-3.png"
       ],
       desc: "Full integration of GoHighLevel APIs into a multi-tenant database using .NET Core and Angular.",
       features: [
@@ -43,8 +43,8 @@ const tagColors = {
       key: "garaj",
       title: "Garaj by Jazz (Animations)",
       img: [
-        "images/projects/garaj-1.gif",
-        "images/projects/garaj-2.gif",
+        "images/Projects/garaj-1.gif",
+        "images/Projects/garaj-2.gif",
       ],
       desc: "All frontend animations created using pure HTML, CSS, and JavaScript for a dynamic website experience.",
       features: [
@@ -59,9 +59,9 @@ const tagColors = {
       key: "hyperpay",
       title: "HyperPay Integration (NopCommerce)",
       img: [
-        "images/projects/hyperpay-1.png",
-        "images/projects/hyperpay-2.png",
-        "images/projects/hyperpay-3.png"
+        "images/Projects/hyperpay-1.png",
+        "images/Projects/hyperpay-2.png",
+        "images/Projects/hyperpay-3.png"
       ],
       desc: "Payment gateway integration in a .NET MVC eCommerce solution with live transaction logging.",
       features: [
@@ -76,9 +76,9 @@ const tagColors = {
       key: "smsa",
       title: "SMSA Shipping Integration",
       img: [
-        "images/projects/smsa-1.png",
-        "images/projects/smsa-2.png",
-        "images/projects/smsa-3.png"
+        "images/Projects/smsa-1.png",
+        "images/Projects/smsa-2.png",
+        "images/Projects/smsa-3.png"
       ],
       desc: "Integrated SMSA API to manage shipping in a .NET MVC eCommerce platform.",
       features: [
@@ -92,9 +92,9 @@ const tagColors = {
       key: "accountms",
       title: "Account Management System",
       img: [
-        "images/projects/accountms-1.png",
-        "images/projects/accountms-2.png",
-        "images/projects/accountms-3.png"
+        "images/Projects/accountms-1.png",
+        "images/Projects/accountms-2.png",
+        "images/Projects/accountms-3.png"
       ],
       desc: "User account and billing system with multi-tenant logic, built using .NET Core and Angular.",
       features: [
@@ -109,9 +109,9 @@ const tagColors = {
       key: "distribution",
       title: "Distribution System",
       img: [
-        "images/projects/distribution-1.png",
-        "images/projects/distribution-2.png",
-        "images/projects/distribution-3.png"
+        "images/Projects/distribution-1.png",
+        "images/Projects/distribution-2.png",
+        "images/Projects/distribution-3.png"
       ],
       desc: "Full product distribution software for vendors, warehouse managers and dispatchers.",
       features: [
@@ -126,9 +126,9 @@ const tagColors = {
       key: "edocument",
       title: "E-Document Service Portal",
       img: [
-        "images/projects/edocument-1.png",
-        "images/projects/edocument-2.png",
-        "images/projects/edocument-3.png"
+        "images/Projects/edocument-1.png",
+        "images/Projects/edocument-2.png",
+        "images/Projects/edocument-3.png"
       ],
       desc: "Multi-tenant document upload portal with OneLink and TCS API integrations.",
       features: [
@@ -143,9 +143,9 @@ const tagColors = {
       key: "restaurant",
       title: "Restaurant Management System",
       img: [
-        "images/projects/restaurant-1.png",
-        "images/projects/restaurant-2.png",
-        "images/projects/restaurant-3.png"
+        "images/Projects/restaurant-1.png",
+        "images/Projects/restaurant-2.png",
+        "images/Projects/restaurant-3.png"
       ],
       desc: "Windows Forms based restaurant billing and inventory software.",
       features: [
@@ -160,8 +160,8 @@ const tagColors = {
       key: "shop",
       title: "Small Shop Management System",
       img: [
-        "images/projects/shop-1.jpg",
-        "images/projects/shop-2.jpg"
+        "images/Projects/shop-1.jpg",
+        "images/Projects/shop-2.jpg"
       ],
       desc: "Simple inventory and billing software for small retail shops.",
       features: [
@@ -176,9 +176,9 @@ const tagColors = {
       key: "inventory",
       title: "Inventory Management System",
       img: [
-        "images/projects/inventory-1.jpg",
-        "images/projects/inventory-2.jpg",
-        "images/projects/inventory-3.jpg"
+        "images/Projects/inventory-1.jpg",
+        "images/Projects/inventory-2.jpg",
+        "images/Projects/inventory-3.jpg"
       ],
       desc: "Inventory tracking solution for stock in/out and alerts.",
       features: [
@@ -193,8 +193,8 @@ const tagColors = {
       key: "factory",
       title: "Factory Management System",
       img: [
-        "images/projects/factory-1.jpg",
-        "images/projects/factory-2.jpg"
+        "images/Projects/factory-1.jpg",
+        "images/Projects/factory-2.jpg"
       ],
       desc: "From raw material to finished product tracking system for factories.",
       features: [
@@ -209,8 +209,8 @@ const tagColors = {
       key: "townone",
       title: "Town One Plot Booking System",
       img: [
-        "images/projects/townone-1.jpg",
-        "images/projects/townone-2.jpg"
+        "images/Projects/townone-1.jpg",
+        "images/Projects/townone-2.jpg"
       ],
       desc: "Housing society plot booking app built in Windows Forms.",
       features: [
@@ -224,8 +224,8 @@ const tagColors = {
       key: "iqbalarcade",
       title: "Iqbal Arcade Shop/Apartment Booking",
       img: [
-        "images/projects/iqbalarcade-1.jpg",
-        "images/projects/iqbalarcade-2.jpg"
+        "images/Projects/iqbalarcade-1.jpg",
+        "images/Projects/iqbalarcade-2.jpg"
       ],
       desc: "Booking system for shops and apartments in Iqbal Arcade.",
       features: [
@@ -239,8 +239,8 @@ const tagColors = {
       key: "gulsan",
       title: "Gulsan-e-Azeem Plot Booking System",
       img: [
-        "images/projects/gulsan-1.jpg",
-        "images/projects/gulsan-2.jpg"
+        "images/Projects/gulsan-1.jpg",
+        "images/Projects/gulsan-2.jpg"
       ],
       desc: "Booking software for plots in Gulsan-e-Azeem housing project.",
       features: [
@@ -249,6 +249,22 @@ const tagColors = {
         "Status reports and receipts"
       ],
       tags: ["C#", "WinForms", "SQL"]
+    },
+    {
+      key: "prizebond",
+      title: "Prize Bond Checker",
+      img: [
+        "images/Projects/prizebond-1.jpg",
+        "images/Projects/prizebond-2.jpg"
+      ],
+      desc: "Prize bond draw matching and result checker application.",
+      features: [
+        "Draw import and search",
+        "Matching engine",
+        "Offline support",
+        "Simple GUI"
+      ],
+      tags: ["C#", "WinForms"]
     }
   ];
 
