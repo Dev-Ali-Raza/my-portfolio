@@ -249,22 +249,6 @@ const tagColors = {
         "Status reports and receipts"
       ],
       tags: ["C#", "WinForms", "SQL"]
-    },
-    {
-      key: "prizebond",
-      title: "Prize Bond Checker",
-      img: [
-        "images/projects/prizebond-1.jpg",
-        "images/projects/prizebond-2.jpg"
-      ],
-      desc: "Prize bond draw matching and result checker application.",
-      features: [
-        "Draw import and search",
-        "Matching engine",
-        "Offline support",
-        "Simple GUI"
-      ],
-      tags: ["C#", "WinForms"]
     }
   ];
 
