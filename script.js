@@ -59,9 +59,9 @@ const tagColors = {
       key: "hyperpay",
       title: "HyperPay Integration (NopCommerce)",
       img: [
-        "images/Projects/hyperpay-1.png",
-        "images/Projects/hyperpay-2.png",
-        "images/Projects/hyperpay-3.png"
+        "images/Projects/Hyperpay-1.png",
+        "images/Projects/Hyperpay-2.png",
+        "images/Projects/Hyperpay-3.png"
       ],
       desc: "Payment gateway integration in a .NET MVC eCommerce solution with live transaction logging.",
       features: [
@@ -76,9 +76,9 @@ const tagColors = {
       key: "smsa",
       title: "SMSA Shipping Integration",
       img: [
-        "images/Projects/smsa-1.png",
-        "images/Projects/smsa-2.png",
-        "images/Projects/smsa-3.png"
+        "images/Projects/Smsa-1.png",
+        "images/Projects/Smsa-2.png",
+        "images/Projects/Smsa-3.png"
       ],
       desc: "Integrated SMSA API to manage shipping in a .NET MVC eCommerce platform.",
       features: [
