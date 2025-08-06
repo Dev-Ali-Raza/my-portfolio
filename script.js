@@ -160,8 +160,9 @@ const tagColors = {
       key: "shop",
       title: "Small Shop Management System",
       img: [
-        "images/Projects/shop-1.jpg",
-        "images/Projects/shop-2.jpg"
+        "images/Projects/shop-1.png",
+        "images/Projects/shop-2.png",
+        "images/Projects/shop-3.png"
       ],
       desc: "Simple inventory and billing software for small retail shops.",
       features: [
@@ -176,9 +177,9 @@ const tagColors = {
       key: "inventory",
       title: "Inventory Management System",
       img: [
-        "images/Projects/inventory-1.jpg",
-        "images/Projects/inventory-2.jpg",
-        "images/Projects/inventory-3.jpg"
+        "images/Projects/inventory-1.png",
+        "images/Projects/inventory-2.png",
+        "images/Projects/inventory-3.png"
       ],
       desc: "Inventory tracking solution for stock in/out and alerts.",
       features: [
@@ -190,27 +191,12 @@ const tagColors = {
       tags: ["C#", "WinForms", "SQL"]
     },
     {
-      key: "factory",
-      title: "Factory Management System",
-      img: [
-        "images/Projects/factory-1.jpg",
-        "images/Projects/factory-2.jpg"
-      ],
-      desc: "From raw material to finished product tracking system for factories.",
-      features: [
-        "Raw material tracking",
-        "Production stage logs",
-        "User-based permissions",
-        "Reporting module"
-      ],
-      tags: ["C#", "WinForms", "SQL"]
-    },
-    {
       key: "townone",
       title: "Town One Plot Booking System",
       img: [
-        "images/Projects/townone-1.jpg",
-        "images/Projects/townone-2.jpg"
+        "images/Projects/townone-1.png",
+        "images/Projects/townone-2.png",
+        "images/Projects/townone-3.png"
       ],
       desc: "Housing society plot booking app built in Windows Forms.",
       features: [
@@ -224,8 +210,9 @@ const tagColors = {
       key: "iqbalarcade",
       title: "Iqbal Arcade Shop/Apartment Booking",
       img: [
-        "images/Projects/iqbalarcade-1.jpg",
-        "images/Projects/iqbalarcade-2.jpg"
+        "images/Projects/iqbalarcade-1.png",
+        "images/Projects/iqbalarcade-2.png",
+        "images/Projects/iqbalarcade-3.png"
       ],
       desc: "Booking system for shops and apartments in Iqbal Arcade.",
       features: [
@@ -239,8 +226,9 @@ const tagColors = {
       key: "gulsan",
       title: "Gulsan-e-Azeem Plot Booking System",
       img: [
-        "images/Projects/gulsan-1.jpg",
-        "images/Projects/gulsan-2.jpg"
+        "images/Projects/gulsan-1.png",
+        "images/Projects/gulsan-2.png",
+        "images/Projects/gulsan-3.png"
       ],
       desc: "Booking software for plots in Gulsan-e-Azeem housing project.",
       features: [
@@ -254,8 +242,8 @@ const tagColors = {
       key: "prizebond",
       title: "Prize Bond Checker",
       img: [
-        "images/Projects/prizebond-1.jpg",
-        "images/Projects/prizebond-2.jpg"
+        "images/Projects/prizebond-1.png",
+        "images/Projects/prizebond-2.png"
       ],
       desc: "Prize bond draw matching and result checker application.",
       features: [
