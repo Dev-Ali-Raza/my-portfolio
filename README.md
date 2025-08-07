@@ -27,7 +27,6 @@ This is my personal portfolio website built using **HTML**, **CSS**, and **JavaS
 - 🎯 Hero section with name, title, and call-to-action
 - 💡 About Me section with intro and skills
 - 💼 Projects section displaying key projects with descriptions
-- 📜 Resume section or download link (PDF)
 - 📩 Contact form (optional: Formspree or mailto)
 - 🌙 Clean and modern design, fully responsive for all devices
 
